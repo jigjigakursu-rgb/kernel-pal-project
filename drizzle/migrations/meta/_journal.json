@@ -8,6 +8,13 @@
       "when": 1790525608462,
       "tag": "0000_initial_game_schema",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790586439883,
+      "tag": "0001_e014d999_6605_4873_a8fa_37bc0f100555",
+      "breakpoints": true
     }
   ]
 }
