@@ -238,6 +238,16 @@ function GameView({ code, playerId }: { code: string; playerId: string }) {
           </p>
           <h2 className="mt-2 text-xl font-extrabold leading-snug text-foreground">{q.question}</h2>
 
+           {q.imageUrl && (
+             <div className="mt-4 flex h-[min(32dvh,18rem)] w-full items-center justify-center overflow-hidden rounded-2xl border-2 border-border bg-panel shadow-[var(--shadow-panel)]">
+               <img
+                 src={q.imageUrl}
+                 alt="Soru görseli"
+                 className="h-full w-full object-contain"
+               />
+             </div>
+           )}
+
           {q.type === "fill" ? (
             <form
               className="mt-5 grid gap-3"

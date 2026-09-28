@@ -6,4 +6,4 @@
 - [x] Akış sırası: 1) sorular 2) yarışma; QR kod yalnızca "YARIŞMAYI BAŞLAT" sonrası
 
 - [x] Halat görünürlüğü: halat tek parça ve temiz görünsün (engelleyen öğeler kaldırıldı)
-- [ ] Soru fotoğrafını iki takımın telefon ekranında göster
+- [x] Soru fotoğrafını iki takımın telefon ekranında göster
